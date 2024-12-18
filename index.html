@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+
+  <body>
+    <nav id="desktop-nav">
+      <img src=".//assets/ynvs_logo.png" width="120px" class="logo" alt="" />
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about-me">About me</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <nav id="hamburger-nav">
+      <div class="logo">Allen Alcantara</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="menu-links">
+          <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#about-me" onclick="toggleMenu()">About me</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#gallery" onclick="toggleMenu()">Gallery</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src=".//assets/profile_pic.jpg" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Allen Alcantara</h1>
+        <div class="btn-container">
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/allen-alcantara-46575a2a6/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/samsomesum'"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about-me">
+      <p class="section__text__p1">Find Out More</p>
+      <h1 class="title">About Me</h1>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src=".//assets/hobby_icon.png" class="icon" />
+            <h3>Interest</h3>
+            <br />
+            <p>Dancing</p><br />
+            <p>Singing</p><br />
+            <p>Making poems</p><br />
+            <p>Playing the xylophone</p><br />
+            <p>Playing the piano</p><br />
+          </div>
+          <div class="details-container">
+            <img src=".//assets/icon_educ.png" class="icon" />
+            <h3>Background Education</h3>
+            <br />
+            <p>ELEMENTARY: Calogcog Elementary School (SY: 2009 - 2017)</p>
+            <br />
+            <p>JUNIOR HIGH SCHOOL: Jose Panganiban National High School (SY: 2017 - 2021)</p>
+            <br />
+            <p>SENIOR HIGH SCHOOL: Jose Panganiban National High School (SY: 2021 - 2023)</p>
+            <br />
+            <p>COLLAGE: Camarines Norte State Collage (SY: 2023 - present)</p>
+            <br />
+          </div>
+        </div>
+
+        <div class="text-container">
+          <p>
+            I’m Allen C. Alcantara, a 2nd-year BSIT student who works well under pressure, especially as deadlines approach. I enjoy playing music, particularly the piano and xylophone. In my free time, I like watching anime, spending time with friends, dancing, singing, and writing poems. These hobbies help me stay focused and motivated in my studies.
+          </p>
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img src=".//assets/html_icon.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src=".//assets/css_icon.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src=".//assets/js_icon.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src=".//assets/figma_icom.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Figma</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects-section">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <a href="https://www.figma.com/proto/KvxPZmozsYID0BeZ8pPAgu/Untitled?node-id=17-734&starting-point-node-id=17%3A734&t=R6rhhHUzuEUpK0kJ-1" target="_blank">
+                  <img src=".//assets/len_ai.jpg" alt="Project 1" class="project-img" />
+                </a>
+              </div>
+              <a href="" target="_blank">
+                <h2 class="experience-sub-title project-title">Project One</h2>
+              </a>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <a href="https://www.figma.com/proto/doAYDzELyhmElKQMt8sfhS/Untitled?node-id=13-166&starting-point-node-id=2%3A31&t=2EbEqFgjYO1ZbMGm-1" target="_blank" target="_blank">
+                  <img src=".//assets/shop_list.jpg" alt="Project 2" class="project-img" />
+                </a>
+              </div>
+              <a href="">
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+              </a>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <a href="https://www.figma.com/proto/4aZqRUaVehYPA3vwZ37lkb/exercise-12?node-id=38-341&p=f&t=KwOIAebEA33oOqem-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1" target="_blank">
+                  <img src=".//assets/allevio.jpg" alt="Project 3" class="project-img" />
+                </a>
+              </div>
+              <a href="" target="_blank">
+                <h2 class="experience-sub-title project-title">Project Three</h2>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    
+    <section id="gallery">
+      <p>My Beautiful</p>
+      <h1>Family</h1>
+      <div class="gallery-images">
+        <img src=".//assets/gallery1.jpg" alt="Gallery Image 1" />
+        <img src=".//assets/gallery3.jpg" alt="Gallery Image 2" />
+        <img src=".//assets/family_pic1.jpg" alt="Family Pic 1" />
+        <img src=".//assets/andpic.jpg" alt="Image And Pic" />
+        <img src=".//assets/fampic.jpg" alt="Family Pic" />
+        <img src=".//assets/fampic2.jpg" alt="" />
+        <img src=".//assets/luna.jpg" alt="" />
+        <img src=".//assets/fampic4.jpg" alt="" />
+        <img src=".//assets/itzy.jpg" alt="" />
+        <img src=".//assets/fampic3.jpg" alt="" />
+      </div>
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+          <p><a href="mailto:allencalcantara56@gmail.com">allencalcantara56@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+          <p><a href="https://www.linkedin.com/in/allen-alcantara-46575a2a6/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="java.js"></script>
+  </body>
+</html>
